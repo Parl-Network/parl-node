@@ -10,7 +10,7 @@ To learn more, join our discord : https://discord.gg/zytex
 ### Network
 
 - Expected Block Time is `15` seconds
-- Address prefix is `ztx` on mainnet and `xet` for testnet/devnet
+- Address prefix is `ztx`
 - Transaction fee is `0.01000` ZTX per KB
 - Up to `8` decimals
 - Maximum supply: `18.4` millions
