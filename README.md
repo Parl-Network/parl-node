@@ -1,7 +1,7 @@
 # ZYTEX
 All rights reserved to Xelis.
 
-Zytex is the fist fork of Xelis : A blockchain made in Rust and powered by Tokio, using account model.
+Zytex is the first fork of Xelis : A blockchain made in Rust and powered by Tokio, using account model.
 
 To learn more, join our discord : https://discord.gg/zytex
 
