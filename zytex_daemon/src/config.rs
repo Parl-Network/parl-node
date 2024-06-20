@@ -221,7 +221,7 @@ const MAINNET_SEED_NODES: [&str; 13] = [
     // Toronto
     "85.208.108.137:4454",
     // Los Angeles
-    "45.61.136.24:4454"
+    "45.61.136.24:4454",
     // Chicago
     "162.33.178.63:4454",
     // Rio de Janeiro
