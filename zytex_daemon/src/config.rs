@@ -206,9 +206,34 @@ pub fn get_genesis_block_hash(network: &Network) -> &'static Hash {
 }
 
 // Mainnet seed nodes
-const MAINNET_SEED_NODES: [&str; 1] = [
+const MAINNET_SEED_NODES: [&str; 13] = [
     
+    // Hong Kong
+    "194.156.98.52:4454",
+    // Tokyo
+    "5.253.41.228:4454",
+    // Bangalore 
+    "64.227.157.64:4454",
+    // Singapore
+    "157.230.37.72:4454",
+    // Sydney
+    "176.97.68.21:4454",
+    // Toronto
+    "85.208.108.137:4454",
+    // Los Angeles
+    "45.61.136.24:4454"
+    // Chicago
+    "162.33.178.63:4454",
+    // Rio de Janeiro
+    "95.164.5.121:4454",
+    // Moscow 
+    "45.84.1.135:4454",
+    // Bucharest
+    "72.5.43.212:4454",
+    // Paris
     "194.164.76.229:4454",
+    // London
+    "153.92.210.245:4454",
 
 ];
 
