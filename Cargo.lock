@@ -3407,125 +3407,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "xelis_common"
-version = "1.12.0"
-dependencies = [
- "actix-rt",
- "actix-web",
- "actix-ws",
- "anyhow",
- "async-trait",
- "blake3",
- "bulletproofs",
- "chacha20",
- "chacha20poly1305",
- "chrono",
- "clap",
- "console-subscriber",
- "crossterm",
- "curve25519-dalek 4.1.2",
- "fern",
- "futures-util",
- "hex",
- "indexmap 2.2.6",
- "lazy_static",
- "log",
- "merlin",
- "primitive-types",
- "rand 0.8.5",
- "regex",
- "reqwest",
- "serde",
- "serde_json",
- "serde_regex",
- "sha3",
- "thiserror",
- "tokio",
- "tokio-tungstenite",
- "win32console",
- "xelis-hash",
- "zeroize",
-]
-
-[[package]]
-name = "xelis_daemon"
-version = "1.12.0"
-dependencies = [
- "actix",
- "actix-web",
- "actix-web-actors",
- "anyhow",
- "async-recursion",
- "async-trait",
- "bytes",
- "chacha20poly1305",
- "clap",
- "ed25519-dalek",
- "fern",
- "hex",
- "human_bytes",
- "humantime",
- "indexmap 2.2.6",
- "lazy_static",
- "log",
- "lru",
- "rand 0.8.5",
- "serde",
- "serde_json",
- "sled",
- "thiserror",
- "tokio",
- "xelis_common",
-]
-
-[[package]]
-name = "xelis_miner"
-version = "1.12.0"
-dependencies = [
- "anyhow",
- "clap",
- "fern",
- "futures-util",
- "lazy_static",
- "log",
- "rand 0.8.5",
- "serde",
- "serde_json",
- "tokio",
- "tokio-tungstenite",
- "xelis_common",
-]
-
-[[package]]
-name = "xelis_wallet"
-version = "1.12.0"
-dependencies = [
- "actix",
- "actix-web",
- "actix-web-httpauth",
- "anyhow",
- "argon2",
- "async-trait",
- "bytemuck",
- "chacha20poly1305",
- "clap",
- "crc32fast",
- "fern",
- "hex",
- "indexmap 2.2.6",
- "lazy_static",
- "log",
- "lru",
- "rand 0.8.5",
- "serde",
- "serde_json",
- "sled",
- "thiserror",
- "tokio",
- "xelis_common",
-]
-
-[[package]]
 name = "zerocopy"
 version = "0.7.34"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3591,4 +3472,123 @@ checksum = "c253a4914af5bafc8fa8c86ee400827e83cf6ec01195ec1f1ed8441bf00d65aa"
 dependencies = [
  "cc",
  "pkg-config",
+]
+
+[[package]]
+name = "zytex_common"
+version = "1.12.0"
+dependencies = [
+ "actix-rt",
+ "actix-web",
+ "actix-ws",
+ "anyhow",
+ "async-trait",
+ "blake3",
+ "bulletproofs",
+ "chacha20",
+ "chacha20poly1305",
+ "chrono",
+ "clap",
+ "console-subscriber",
+ "crossterm",
+ "curve25519-dalek 4.1.2",
+ "fern",
+ "futures-util",
+ "hex",
+ "indexmap 2.2.6",
+ "lazy_static",
+ "log",
+ "merlin",
+ "primitive-types",
+ "rand 0.8.5",
+ "regex",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_regex",
+ "sha3",
+ "thiserror",
+ "tokio",
+ "tokio-tungstenite",
+ "win32console",
+ "xelis-hash",
+ "zeroize",
+]
+
+[[package]]
+name = "zytex_daemon"
+version = "1.12.0"
+dependencies = [
+ "actix",
+ "actix-web",
+ "actix-web-actors",
+ "anyhow",
+ "async-recursion",
+ "async-trait",
+ "bytes",
+ "chacha20poly1305",
+ "clap",
+ "ed25519-dalek",
+ "fern",
+ "hex",
+ "human_bytes",
+ "humantime",
+ "indexmap 2.2.6",
+ "lazy_static",
+ "log",
+ "lru",
+ "rand 0.8.5",
+ "serde",
+ "serde_json",
+ "sled",
+ "thiserror",
+ "tokio",
+ "zytex_common",
+]
+
+[[package]]
+name = "zytex_miner"
+version = "1.12.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "fern",
+ "futures-util",
+ "lazy_static",
+ "log",
+ "rand 0.8.5",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tokio-tungstenite",
+ "zytex_common",
+]
+
+[[package]]
+name = "zytex_wallet"
+version = "1.12.0"
+dependencies = [
+ "actix",
+ "actix-web",
+ "actix-web-httpauth",
+ "anyhow",
+ "argon2",
+ "async-trait",
+ "bytemuck",
+ "chacha20poly1305",
+ "clap",
+ "crc32fast",
+ "fern",
+ "hex",
+ "indexmap 2.2.6",
+ "lazy_static",
+ "log",
+ "lru",
+ "rand 0.8.5",
+ "serde",
+ "serde_json",
+ "sled",
+ "thiserror",
+ "tokio",
+ "zytex_common",
 ]

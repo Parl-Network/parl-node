@@ -2,10 +2,10 @@
 resolver = "2"
 
 members = [
-    "xelis_common",
-    "xelis_wallet",
-    "xelis_miner",
-    "xelis_daemon"
+    "zytex_common",
+    "zytex_wallet",
+    "zytex_miner",
+    "zytex_daemon"
 ]
 
 # cargo run --profile release-with-lto

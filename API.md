@@ -461,7 +461,7 @@ Validate a wallet address by accepting or not integrated address.
 	"id": 1,
 	"method": "validate_address",
 	"params": {
-		"address": "xel:vs3mfyywt0fjys0rgslue7mm4wr23xdgejsjk0ld7f2kxng4d4nqqnkdufz",
+		"address": "ztx:vs3mfyywt0fjys0rgslue7mm4wr23xdgejsjk0ld7f2kxng4d4nqqnkdufz",
 		"allow_integrated": false
 	}
 }
@@ -517,7 +517,7 @@ Split address and integrated data in two differents fields.
 				"Hello",
 				"World",
 				"from",
-				"XELIS"
+				"ZYTEX"
 			]
 		}
 	}
@@ -544,7 +544,7 @@ NOTE: If `as_hex` is `false`, the response result will contains a field named `b
 	"id": 1,
 	"method": "extract_key_from_address",
 	"params": {
-		"address": "xel:vs3mfyywt0fjys0rgslue7mm4wr23xdgejsjk0ld7f2kxng4d4nqqnkdufz",
+		"address": "ztx:vs3mfyywt0fjys0rgslue7mm4wr23xdgejsjk0ld7f2kxng4d4nqqnkdufz",
 		"as_hex": true
 	}
 }
@@ -1519,16 +1519,16 @@ No parameters
 		"hidden_peers": 0,
 		"peers": [
 			{
-				"addr": "162.19.249.100:2125",
+				"addr": "162.19.249.100:4454",
 				"connected_on": 1711663198,
 				"cumulative_difficulty": "874788276435001",
 				"height": 21939,
 				"id": 7089875151156203202,
 				"last_ping": 1711664680,
-				"local_port": 2125,
+				"local_port": 4454,
 				"peers": {
-					"255.255.255.255:2125": "In",
-					"74.208.251.149:2125": "Both"
+					"255.255.255.255:4454": "In",
+					"74.208.251.149:4454": "Both"
 				},
 				"pruned_topoheight": null,
 				"tag": null,
@@ -1537,15 +1537,15 @@ No parameters
 				"version": "1.8.0-58bb439"
 			},
 			{
-				"addr": "74.208.251.149:2125",
+				"addr": "74.208.251.149:4454",
 				"connected_on": 1711663199,
 				"cumulative_difficulty": "874788276435001",
 				"height": 21939,
 				"id": 2448648666414530279,
 				"last_ping": 1711664682,
-				"local_port": 2125,
+				"local_port": 4454,
 				"peers": {
-					"127.0.0.1:2125": "In",
+					"127.0.0.1:4454": "In",
 					"127.0.0.1:2126": "Both"
 				},
 				"pruned_topoheight": null,
@@ -5476,7 +5476,7 @@ Fetch transactions by theirs hashes from database and mempool of daemon and keep
 #### Get Account History
 Fetch up to 20 history events for an account on a specific asset.
 
-NOTE: If no asset is provided, default is set to XELIS.
+NOTE: If no asset is provided, default is set to ZYTEX.
 
 ##### Method `get_account_history`
 
@@ -6364,7 +6364,7 @@ It is not mandatory and support any data formatted in JSON up to 1 KB in seriali
 				"Hello",
 				"World",
 				"from",
-				"XELIS"
+				"ZYTEX"
 			],
 			"items": {
 				"sword": 5
@@ -6421,7 +6421,7 @@ Split address and integrated data in two differents fields.
 				"Hello",
 				"World",
 				"from",
-				"XELIS"
+				"ZYTEX"
 			]
 		}
 	}
@@ -6464,7 +6464,7 @@ When no topoheight is set, it rescan until topoheight 0.
 
 #### Get Balance
 Get asset balance from wallet.
-When no parameter is set, default asset is XELIS.
+When no parameter is set, default asset is ZYTEX.
 
 NOTE: By default, if no balance for the requested asset is found, it will returns 0.
 Use `has_balance` to determine if the wallet as an asset balance or not.
@@ -6500,7 +6500,7 @@ Balance is returned in atomic units.
 
 #### Has Balance
 Verify if wallet has the requested asset balance.
-When no parameter is set, default asset is XELIS.
+When no parameter is set, default asset is ZYTEX.
 
 ##### Method `has_balance`
 
@@ -6640,7 +6640,7 @@ Get transaction by hash from wallet.
 Build a transaction to be send by the wallet.
 It can be broadcasted or not to the network.
 
-**NOTE**: Amount set are in atomic units, for XELIS it would be `100000000` to represents 1 XELIS because of 8 decimals precision.
+**NOTE**: Amount set are in atomic units, for ZYTEX it would be `100000000` to represents 1 ZYTEX because of 8 decimals precision.
 
 ##### Method `build_transaction`
 
