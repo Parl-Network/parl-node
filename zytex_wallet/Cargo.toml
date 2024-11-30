@@ -2,7 +2,6 @@
 name = "zytex_wallet"
 version = "1.12.1"
 edition = "2021"
-authors = ["Slixe <slixeprivate@gmail.com>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
