@@ -3476,7 +3476,7 @@ dependencies = [
 
 [[package]]
 name = "zytex_common"
-version = "1.12.0"
+version = "1.12.1"
 dependencies = [
  "actix-rt",
  "actix-web",
@@ -3517,7 +3517,7 @@ dependencies = [
 
 [[package]]
 name = "zytex_daemon"
-version = "1.12.0"
+version = "1.12.1"
 dependencies = [
  "actix",
  "actix-web",
@@ -3548,7 +3548,7 @@ dependencies = [
 
 [[package]]
 name = "zytex_miner"
-version = "1.12.0"
+version = "1.12.1"
 dependencies = [
  "anyhow",
  "clap",
@@ -3566,7 +3566,7 @@ dependencies = [
 
 [[package]]
 name = "zytex_wallet"
-version = "1.12.0"
+version = "1.12.1"
 dependencies = [
  "actix",
  "actix-web",
