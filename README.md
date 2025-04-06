@@ -10,7 +10,7 @@ To learn more, join our discord : https://discord.gg/zytex
 ### Network
 
 - Expected Block Time is `15` seconds
-- Address prefix is `ztx`
+- Address prefix is `prl`
 - Transaction fee is `0.01000` ZTX per KB
 - Up to `8` decimals
 - Maximum supply: `18.4` millions
@@ -20,8 +20,8 @@ To learn more, join our discord : https://discord.gg/zytex
 
 ### Daemon
 
-- Default P2P port is `4454`
-- Defaut RPC Server port is `4455`
+- Default P2P port is `5801`
+- Defaut RPC Server port is `5800`
 
 ### Wallet
 
@@ -35,13 +35,13 @@ Building this project requires a working [Rust](https://rustup.rs) (stable) tool
 It's expected to be cross-platform and guaranteed to work on Linux, Windows, MacOS platforms.
 
 ### Build from sub project
-Go to one of following folder you want to build from source: `zytex_daemon`, `zytex_miner` or `zytex_wallet`.
+Go to one of following folder you want to build from source: `parl_daemon`, `parl_miner` or `parl_wallet`.
 To build a release (optimized) version:
 `cargo build --release`
 
 ### Build from workspace
-To build a version from workspace (parent folder) directly, use the option `--bin` with `zytex_daemon`, `zytex_miner` or `zytex_wallet` as value.
-Example: `cargo build --release --bin zytex_miner`
+To build a version from workspace (parent folder) directly, use the option `--bin` with `parl_daemon`, `parl_miner` or `parl_wallet` as value.
+Example: `cargo build --release --bin parl_miner`
 
 You can also build a debug version (just remove `--release` option) or run it directly from cargo:
 `cargo run`
@@ -52,3 +52,7 @@ Current dev fee curve is as following:
 
 - 10% from block 0 to 3 000 000 (expected time is one year with side blocks from blockDAG and network growing)
 - 5% from 3 000 001 until the project being developed and stable enough to reduce it.
+# parl-node
+# parl-node
+# parl-node
+# parl-node

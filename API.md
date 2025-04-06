@@ -461,7 +461,7 @@ Validate a wallet address by accepting or not integrated address.
 	"id": 1,
 	"method": "validate_address",
 	"params": {
-		"address": "ztx:vs3mfyywt0fjys0rgslue7mm4wr23xdgejsjk0ld7f2kxng4d4nqqnkdufz",
+		"address": "prl:tnw644wltt78fnellgtf6sesu9v4hecsm36308s3cua3k0g40p3qqd3vrel",
 		"allow_integrated": false
 	}
 }
@@ -517,7 +517,7 @@ Split address and integrated data in two differents fields.
 				"Hello",
 				"World",
 				"from",
-				"ZYTEX"
+				"PARL"
 			]
 		}
 	}
@@ -544,7 +544,7 @@ NOTE: If `as_hex` is `false`, the response result will contains a field named `b
 	"id": 1,
 	"method": "extract_key_from_address",
 	"params": {
-		"address": "ztx:vs3mfyywt0fjys0rgslue7mm4wr23xdgejsjk0ld7f2kxng4d4nqqnkdufz",
+		"address": "prl:tnw644wltt78fnellgtf6sesu9v4hecsm36308s3cua3k0g40p3qqd3vrel",
 		"as_hex": true
 	}
 }
@@ -5476,7 +5476,7 @@ Fetch transactions by theirs hashes from database and mempool of daemon and keep
 #### Get Account History
 Fetch up to 20 history events for an account on a specific asset.
 
-NOTE: If no asset is provided, default is set to ZYTEX.
+NOTE: If no asset is provided, default is set to PARL.
 
 ##### Method `get_account_history`
 
@@ -6364,7 +6364,7 @@ It is not mandatory and support any data formatted in JSON up to 1 KB in seriali
 				"Hello",
 				"World",
 				"from",
-				"ZYTEX"
+				"PARL"
 			],
 			"items": {
 				"sword": 5
@@ -6421,7 +6421,7 @@ Split address and integrated data in two differents fields.
 				"Hello",
 				"World",
 				"from",
-				"ZYTEX"
+				"PARL"
 			]
 		}
 	}
@@ -6464,7 +6464,7 @@ When no topoheight is set, it rescan until topoheight 0.
 
 #### Get Balance
 Get asset balance from wallet.
-When no parameter is set, default asset is ZYTEX.
+When no parameter is set, default asset is PARL.
 
 NOTE: By default, if no balance for the requested asset is found, it will returns 0.
 Use `has_balance` to determine if the wallet as an asset balance or not.
@@ -6500,7 +6500,7 @@ Balance is returned in atomic units.
 
 #### Has Balance
 Verify if wallet has the requested asset balance.
-When no parameter is set, default asset is ZYTEX.
+When no parameter is set, default asset is PARL.
 
 ##### Method `has_balance`
 
@@ -6640,7 +6640,7 @@ Get transaction by hash from wallet.
 Build a transaction to be send by the wallet.
 It can be broadcasted or not to the network.
 
-**NOTE**: Amount set are in atomic units, for ZYTEX it would be `100000000` to represents 1 ZYTEX because of 8 decimals precision.
+**NOTE**: Amount set are in atomic units, for PARL it would be `100000000` to represents 1 PARL because of 8 decimals precision.
 
 ##### Method `build_transaction`
 

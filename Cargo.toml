@@ -2,10 +2,10 @@
 resolver = "2"
 
 members = [
-    "zytex_common",
-    "zytex_wallet",
-    "zytex_miner",
-    "zytex_daemon"
+    "parl_common",
+    "parl_wallet",
+    "parl_miner",
+    "parl_daemon"
 ]
 
 # cargo run --profile release-with-lto
@@ -15,3 +15,4 @@ opt-level = 3
 debug-assertions = false
 overflow-checks = false
 lto = true
+bincode = "2.0.0-rc.3"
