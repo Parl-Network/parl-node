@@ -1,9 +1,9 @@
-# ZYTEX
+# ¨PARL
 All rights reserved to Xelis.
 
-Zytex is the first fork of Xelis : A blockchain made in Rust and powered by Tokio, using account model.
+Parl is the fork of Xelis : A blockchain made in Rust and powered by Tokio, using account model.
 
-To learn more, join our discord : https://discord.gg/zytex
+To learn more, join our discord : https://discord.gg/PARL
 
 ## Config
 
@@ -11,7 +11,7 @@ To learn more, join our discord : https://discord.gg/zytex
 
 - Expected Block Time is `15` seconds
 - Address prefix is `prl`
-- Transaction fee is `0.01000` ZTX per KB
+- Transaction fee is `0.01000` PRL per KB
 - Up to `8` decimals
 - Maximum supply: `18.4` millions
 - Maximum block size: `1.25` MB
