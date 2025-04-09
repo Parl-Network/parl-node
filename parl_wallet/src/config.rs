@@ -8,7 +8,7 @@ pub const SALT_SIZE: usize = 32;
 pub const KEY_SIZE: usize = 32;
 
 // daemon address by default when no specified
-pub const DEFAULT_DAEMON_ADDRESS: &str = "http://127.0.0.1:4455";
+pub const DEFAULT_DAEMON_ADDRESS: &str = "http://127.0.0.1:5800";
 // Auto reconnect interval in seconds for Network Handler
 pub const AUTO_RECONNECT_INTERVAL: u64 = 5;
 
