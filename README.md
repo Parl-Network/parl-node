@@ -3,7 +3,7 @@ All rights reserved to Xelis.
 
 Parl is the fork of Xelis : A blockchain made in Rust and powered by Tokio, using account model.
 
-To learn more, join our discord : [[https://discord.gg/PARL](https://discord.gg/mq4ZmHyb)](https://discord.gg/CqZym4fK)
+To learn more, join our discord : [[https://discord.gg/PARL]([https://discord.gg/mq4ZmHyb])
 
 ## Config
 
