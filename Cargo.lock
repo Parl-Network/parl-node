@@ -655,7 +655,7 @@ dependencies = [
 [[package]]
 name = "bulletproofs"
 version = "5.0.2"
-source = "git+https://github.com/xelis-project/bulletproofs?branch=master#91e0ebe18777bc5ae42178ad73863fd64f20201b"
+source = "git+https://github.com/Parl-Network/bulletproofs?branch=master#91e0ebe18777bc5ae42178ad73863fd64f20201b"
 dependencies = [
  "byteorder",
  "clear_on_drop",
