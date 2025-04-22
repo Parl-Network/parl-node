@@ -1,6 +1,6 @@
 [package]
 name = "parl_common"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 authors = ["Slixe <slixeprivate@gmail.com>"]
 build = "build.rs"
