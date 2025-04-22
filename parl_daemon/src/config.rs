@@ -207,7 +207,7 @@ pub fn get_genesis_block_hash(network: &Network) -> &'static Hash {
 // Mainnet seed nodes
 const MAINNET_SEED_NODES: [&str; 1] = [
     
-    "88.15.139.98:5801"
+    "88.15.138.117:5801"
 
 ];
 
